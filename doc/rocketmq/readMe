@@ -1,0 +1,20 @@
+切换到用户mquser
+su - mquser
+
+以mquser进行相关操作
+cd /oa/other/rocketmq
+启动
+sh start.sh
+关闭
+sh stop.sh
+
+查看broker日志
+tail -f -n 500 /oa/other/rocketmq/logs/rocketmqlogs/broker.log
+
+查看nameserver日志
+tail -f -n 500 /oa/other/rocketmq/logs/rocketmqlogs/namesrv.log
+
+
+
+
+
